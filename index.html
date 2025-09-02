@@ -4,6 +4,118 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>랜딩페이지</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <!-- bootstrap 4.6 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- swiper -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
    </head>
-   <body></body>
+   <body>
+      <header></header>
+      <!-- kv start -->
+      <section class="kv">
+         <!-- Swiper -->
+         <div class="swiper kvSlider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide kvSlider-bg1">
+                  <div class="kv--title text-cneter">
+                     <h2>
+                        Learn to Hobby<br />
+                        일상 속 작은 즐거움, 나만의 시간
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider-bg2">
+                  <div class="kv--title text-cneter">
+                     <h2>
+                        Enjoy First, Do well Later<br />
+                        좋아하는 일을 배우는 특별한 경험
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider-bg3">
+                  <div class="kv--title text-cneter">
+                     <h2>
+                        Easy way to find better me<br />
+                        오늘의 호기심이 내일의 자신감으로
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider-bg4">
+                  <div class="kv--title text-cneter">
+                     <h2>
+                        One small steps to Confident<br />
+                        작은 배움이 쌓여 바꾸는 내일의 나
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">자세히보기</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <!-- kv end -->
+      <!-- content start -->
+      <section class="aiContent common-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="content--title text-center">
+                     <h3 class="line">Light start, Special enough</h3>
+                     <p>취미와 자기계발을 위한 트렌디한 클래스, 당신의 일상에 영감을 더하세요.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center mt-40">
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/material-symbols_devices-outline.svg" alt="아이콘" />
+                     <h4 class="mt-40">다채로운 클래스</h4>
+                     <p class="mt-20">드로잉부터 요리, 사진까지 원하는 취미를 한곳에서</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/hugeicons_ai-network.svg" alt="아이콘" />
+                     <h4 class="mt-40">라이프 러닝</h4>
+                     <p class="mt-20">출퇴근, 여행길 어디서든 즐기는 오디오·영상 강의</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/carbon_dns-services.svg" alt="아이콘" />
+                     <h4 class="mt-40">라이프스타일</h4>
+                     <p class="mt-20">스마트 디바이스, 서비스로 더욱 편리한 일상을 만나보세요.</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/akar-icons_paper.svg" alt="아이콘" />
+                     <h4 class="mt-40">나만의 속도</h4>
+                     <p class="mt-20">부담 없이, 원하는 만큼 배우는 자유로운 학습</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-40">
+               <div class="col-md-4">
+                  <h5>asdf</h5>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- content end -->
+      <script src="assets/js/jquery.slim.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper('.kvSlider', {
+            pagination: {
+               el: '.swiper-pagination',
+            },
+         })
+      </script>
+   </body>
 </html>
