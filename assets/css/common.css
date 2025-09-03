@@ -23,3 +23,15 @@ a:hover {
 .common-padding {
    padding: 120px 0;
 }
+
+h4 {
+   font-weight: bold;
+}
+
+img {
+   width: 100%;
+}
+
+.icon {
+   width: 30%;
+}
